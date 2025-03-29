@@ -21,7 +21,7 @@ just
 Build the image:
 
 ```sh
-podman build -t freebsd-handbook:$(date '+%Y%m%d') -t freebsd-handbook:latest .
+podman build -t freebsd-handbook:latest .
 ```
 
 Run the image:
@@ -35,7 +35,7 @@ podman run -d --name freebsd-handbook --rm -p 127.0.0.1:3000:3000 freebsd-handbo
 Build the image:
 
 ```sh
-docker build -t freebsd-handbook:$(date '+%Y%m%d') -t freebsd-handbook:latest .
+docker build -t freebsd-handbook:latest .
 ```
 
 Run the image:
