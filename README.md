@@ -10,12 +10,11 @@ Build and run with [Podman](https://podman.io/) using [just](https://github.com/
 
 ### Podman Just
 
-Build and run the image:
+Run the image and build if needed:
 
 ```sh
-just build-podman run-podman
+just
 ```
-
 
 ### Podman Raw
 
